@@ -18,11 +18,11 @@ CNAME, app-ads.txt                       Domain + ad network verification — ke
 
 **Add a mobile game:** put a 9:16 screenshot (around 540×960, `.webp` or `.png`) in
 `assets/img/games/`, then copy one `<li class="game">` block in the *Mobile Games* section
-of `index.html` and change the image and name. To make it clickable, wrap the screenshot in
-`<a href="…store link…" target="_blank" rel="noopener">…</a>`.
+of `index.html` and change the image, name and store links (remove the Google Play or
+App Store link if the game isn't on that store).
 
 **Change the VR video:** in the *VR Games* section, replace the video ID (`2rqLua06fVM`)
-in `href`, `data-yt` and the thumbnail URL.
+in `href`, `data-yt` and the thumbnail URL (`maxresdefault.jpg`).
 
 **Add a social/store link:** copy one `<li>` in the *Find us* section. Icons live in the
 `<svg>` sprite at the top of `index.html`.
